@@ -1,0 +1,11 @@
+[
+    {
+     "trigger": "computador",
+     "command": "d:\\alexa\\triggercmd_batches\\turn_on.bat",
+     "offCommand": "d:\\alexa\\triggercmd_batches\\turn_off.bat",
+     "ground": "foreground",
+     "voice": "computador",
+     "voiceReply": "ok",
+     "allowParams": "true"
+    }
+]
