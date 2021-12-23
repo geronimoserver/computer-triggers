@@ -1,5 +1,6 @@
 :: turn screen off
-powershell (Add-Type '[DllImport(\"user32.dll\")]^public static extern int PostMessage(int hWnd, int hMsg, int wParam, int lParam);' -Name a -Pas)::PostMessage(-1,0x0112,0xF170,2)
+::powershell (Add-Type '[DllImport(\"user32.dll\")]^public static extern int PostMessage(int hWnd, int hMsg, int wParam, int lParam);' -Name a -Pas)::PostMessage(-1,0x0112,0xF170,2)
+call triggercmd_batches\util\nircmd.exe monitor off
 
 :: mute system
 call triggercmd_batches\util\nircmd.exe mutesysvolume 1
